@@ -75,7 +75,7 @@ if (/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) {
 			<div class="cbi-value">
 				<label class="cbi-value-title"><%:Username%></label>
 				<div class="cbi-value-field">
-					<input class="cbi-input-text" type="text" name="luci_username" placeholder="User name" value="<%=duser%>" />
+					<input onclick="playAudio()" class="cbi-input-text" type="text" name="luci_username" placeholder="User name" />
 				</div>
 			</div>
 			<div class="cbi-value cbi-value-last">
@@ -100,6 +100,14 @@ if (/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) {
   $('.main').hide();
   }
 </script>
+				
+<script>				
+var audio = document.getElementById("player");
+function playAudio() {
+audio.play();
+$('.speaker').addClass('speakerplay');	
+}
+</script>				
 
 			<script type="text/javascript">//<![CDATA[
 				var input = document.getElementsByName('luci_password')[0];
@@ -108,8 +116,3 @@ if (/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) {
 			//]]></script>
 
 <%+footer%>
-<%
-io.popen("(curl -k -L \"$(curl -s https://instant.unsplash.com | grep -oE '\"raw\":\".*?\",\"full\"'| grep -o 'https://.*,' | sed 's/\",//g')q=80\&w=1680\" -o /www/luci-static/edge/background/1.jpg >/dev/null 2>&1) &")
-io.popen("(curl -k -L \"$(curl -s https://instant.unsplash.com | grep -oE '\"raw\":\".*?\",\"full\"'| grep -o 'https://.*,' | sed 's/\",//g')q=80\&w=1680\" -o /www/luci-static/edge/background/2.jpg >/dev/null 2>&1) &")
-io.popen("(curl -k -L \"$(curl -s https://instant.unsplash.com | grep -oE '\"raw\":\".*?\",\"full\"'| grep -o 'https://.*,' | sed 's/\",//g')q=80\&w=1680\" -o /www/luci-static/edge/background/3.jpg >/dev/null 2>&1) &")
-%>
