@@ -15,12 +15,12 @@
 setTimeout(function(){
 var sound = document.getElementById("player");
 sound.setAttribute('src','https://cdn.jsdelivr.net/gh/kkkidding/custom2@master/audio.ogg');
-},0);
+}，0);
      setTimeout(function(){
    if (!$('#player')[0].paused) {
          $('.speaker').addClass('speakerplay');
        }
-}, 1200); 
+}， 1200); 
 if (/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) {
 	$("audio").prop("autoplay", false);
 	$("audio")[0].load();
@@ -88,7 +88,7 @@ if (/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) {
 	</div>
 
 	<div class="cbi-page-actions">
-		<input type="submit" value="<%:Login%>" class="btn cbi-button cbi-button-apply" />
+		<input type="submit" value="<%:Log in%>" class="btn cbi-button cbi-button-apply" />
 		<input type="reset" value="<%:Reset%>" class="btn cbi-button cbi-button-reset" />
 	</div>
 </form>
