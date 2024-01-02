@@ -15,12 +15,12 @@
 setTimeout(function(){
 var sound = document.getElementById("player");
 sound.setAttribute('src','<%=media%>/background/audio.ogg');
-}, 0);
+}， 0);
      setTimeout(function(){
    if (!$('#player')[0].paused) {
          $('.speaker').addClass('speakerplay');
        }
-}, 600); 
+}， 600); 
 if (/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) {
 	$("audio").prop("autoplay", false);
 	$("audio")[0].load();
@@ -75,13 +75,13 @@ if (/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) {
 			<div class="cbi-value">
 				<label class="cbi-value-title"><%:Username%></label>
 				<div class="cbi-value-field">
-					<input onclick="playAudio()" class="cbi-input-text" type="text" name="luci_username" placeholder="User name" />
+					<input onclick="playAudio()" class="cbi-input-text" type="text" name="luci_username" />
 				</div>
 			</div>
 			<div class="cbi-value cbi-value-last">
 				<label class="cbi-value-title"><%:Password%></label>
 				<div class="cbi-value-field">
-					<input class="cbi-input-text" type="password" placeholder="Password" name="luci_password" />
+					<input class="cbi-input-text" type="password" name="luci_password" />
 					<span class="focus-input"></span>
 				</div>
 			</div>
