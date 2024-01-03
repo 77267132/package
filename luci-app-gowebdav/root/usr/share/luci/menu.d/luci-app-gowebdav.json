@@ -1,7 +1,7 @@
 {
 	"admin/nas/gowebdav": {
 		"title": "GoWebDav",
-		"order": 10,
+		"order": 2,
 		"action": {
 			"type": "view",
 			"path": "gowebdav"
