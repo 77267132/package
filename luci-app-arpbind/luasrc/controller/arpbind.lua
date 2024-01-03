@@ -10,5 +10,5 @@ function index()
 		return
 	end
 
-	entry({"admin", "network", "arpbind"}, cbi("arpbind"), _("IP/MAC Binding"), 45).dependent = true
+	entry({"admin", "network", "arpbind"}, cbi("arpbind"), _("IP/MAC Binding"), 5).dependent = true
 end

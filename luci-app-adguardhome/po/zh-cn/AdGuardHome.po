@@ -1,6 +1,9 @@
-
 msgid ""
 msgstr ""
+
+#: applications/luci-app-adguardhome/luasrc/controller/AdGuardHome.lua:6
+msgid "AdGuard Home"
+msgstr "广告过滤"
 
 #/cgi-bin/luci/admin/services/AdGuardHome
 msgid "Base Setting"

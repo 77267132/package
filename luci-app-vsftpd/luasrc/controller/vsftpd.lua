@@ -21,7 +21,7 @@ function index()
 		return
 	end
 
-	entry({"admin", "nas"}, firstchild(), "NAS", 44).dependent = false
+	entry({"admin", "nas"}, firstchild(), "NAS", 3).dependent = false
 	entry({"admin", "nas", "vsftpd"}, alias("admin", "nas", "vsftpd", "general"), _("FTP Server"))
 	entry({"admin", "nas", "vsftpd", "general"}, cbi("vsftpd/general"), _("General Settings"), 10).leaf = true
 	entry({"admin", "nas", "vsftpd", "users"}, cbi("vsftpd/users"), _("Virtual Users"), 20).leaf = true 
