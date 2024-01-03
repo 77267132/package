@@ -8,5 +8,5 @@ function index()
 		return
 	end
 
-	entry({"admin", "system", "webadmin"}, cbi("webadmin"), _("Web Admin"), 69).leaf = true
+	entry({"admin", "system", "webadmin"}, cbi("webadmin"), _("Web Admin"), 10).leaf = true
 end
