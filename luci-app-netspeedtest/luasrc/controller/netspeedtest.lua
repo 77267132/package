@@ -4,7 +4,7 @@ module("luci.controller.netspeedtest", package.seeall)
 local fs=require"nixio.fs"
 local sys  = require "luci.sys"
 function index()
-	entry({"admin","network","netspeedtest"},alias("admin", "network", "netspeedtest", "homebox"),_("Net Speedtest"), 90).dependent = true
+	entry({"admin","network","netspeedtest"},alias("admin", "network", "netspeedtest", "homebox"),_("Net Speedtest"), 7).dependent = true
 	entry({"admin","network","netspeedtest","homebox"},cbi("netspeedtest/homebox"),_("Lan homebox Web"),20).leaf = true
 	entry({"admin","network","netspeedtest","speedtestiperf3"},cbi("netspeedtest/speedtestiperf3", {hideapplybtn=true, hidesavebtn=true, hideresetbtn=true}),_("Lan Speedtest Iperf3"),30).leaf = true
         entry({"admin","network","netspeedtest","speedtestwan"},cbi("netspeedtest/speedtestwan", {hideapplybtn=true, hidesavebtn=true, hideresetbtn=true}),_("Wan Speedtest"), 40).leaf = true
