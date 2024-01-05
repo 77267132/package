@@ -12,9 +12,6 @@ msgstr ""
 "Language: zh_CN\n"
 "X-Generator: Poedit 2.3.1\n"
 
-msgid "NAS"
-msgstr "存储"
-
 msgid ". and .. are excluded."
 msgstr ". 和 .. 将被忽略。"
 
