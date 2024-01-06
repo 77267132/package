@@ -542,7 +542,6 @@ footer {
 	text-align: right;
 	white-space: nowrap;
 	color: #aaa;
-	text-shadow: 0 0 2px #bbb;
 }
 
 footer > a {
@@ -2842,7 +2841,6 @@ input[name="nslookup"] {
 	margin: 0;
 	text-align: center;
 	text-indent: -3rem;
-	background: transparent content-box !important;
 	box-sizing: border-box;
 	height: 0 !important;
 	padding: 1.38rem 0;
