@@ -411,7 +411,8 @@ html {
 body {
 	font-family: "Google Sans", "Microsoft Yahei", "WenQuanYi Micro Hei", "sans-serif", "Helvetica Neue", "Helvetica", "Hiragino Sans GB";
 	font-size: 0.82rem;
-	color: #4d5156
+	color: #4d5156;
+	background-color:#f4f5f7;
 }
 
 html,
@@ -627,6 +628,7 @@ small {
 
 p {
 	line-height: 1.8rem;
+	padding: 0.5rem 0rem 0.5rem 0rem;
 }
 
 .main-left {
@@ -1098,6 +1100,7 @@ body[class*="node-"] > .main > .main-left > .nav > .slide > .menu.active::before
 
 #maincontent > .container {
 	padding:0 2%;
+	margin-top:3rem;
 }
 
 .Overview.node-admin-status #maincontent > .container {
@@ -1122,8 +1125,11 @@ h1 {
 }
 
 h2 {
+	background-color: #fff;
 	font-size: 1.8rem;
-	padding: 1rem 2rem;
+	font-weight:bold;
+	padding: 1rem 1rem;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
 }
 
 h3 {
@@ -1145,8 +1151,9 @@ h5 {
 }
 
 .container .cbi-section{
+	background-color: #fff;
 	margin-bottom:1rem;
-	
+	box-shadow:0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
 }
 
 .cbi-modal .cbi-section,
@@ -1163,7 +1170,7 @@ h5 {
 .cbi-section-descr {
 	font-size: small;
 	line-height: 2rem;
-	padding: 0 0 0.5rem 0;
+	padding: 0.5rem 1rem 0.5rem 0.5rem;
 }
 
 .cbi-section-node {
@@ -1566,8 +1573,9 @@ button:hover,
 }
 
 ul.tabs,.tabmenu .tabs,#tabmenu .tabs,ul.cbi-tabmenu {
+	margin-top: 1rem;
 	padding-left: 2.5%;
-	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12);
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
 	transition: box-shadow .25s, -webkit-box-shadow .25s;
 	border-radius: 2px;
 	border-bottom: 0;
@@ -1577,8 +1585,8 @@ ul.tabs,.tabmenu .tabs,#tabmenu .tabs,ul.cbi-tabmenu {
 }
 
 #packages{
-	margin-left: -2%;
-    width: 105%;
+	margin-left: 0%;
+    width: 100%;
 }
 
 #packages td.col-10 {
@@ -2932,7 +2940,6 @@ input[name="nslookup"] {
 /* fix system reboot */
 [data-page="admin-system-reboot"] p {
 	padding-left: 0rem;
-	color: #fff;
 }
 [data-page="admin-system-reboot"] .cbi-button {
 	background: #fb6340 !important;
@@ -2956,7 +2963,7 @@ input[name="nslookup"] {
 [data-page="admin-system-admin-password"] .cbi-map h2,
 [data-page="admin-system-admin"] .cbi-map .cbi-map-descr,
 [data-page="admin-system-admin-password"] .cbi-map .cbi-map-descr {
-	margin-left: 1.5rem;
+	margin-left: 0rem;
 	color: #32325d;
 	color: var(--gray-dark);
 }
@@ -2985,7 +2992,7 @@ input[name="nslookup"] {
 	display: inline;
 }
 [data-page^="admin-system-admin"]:not(.node-main-login) .cbi-map:not(#cbi-dropbear) {
-	margin-top: 2rem;
+	margin-top: 0rem;
 	padding-top: 0.1rem;
 }
 
@@ -2995,7 +3002,6 @@ input[name="nslookup"] {
 }
 /* admin-system-crontab*/
 [data-page="admin-system-crontab"] #view p {
-	color: #fff;
 	margin-bottom: 1rem;
 }
 /*admin-system-flash*/
@@ -3933,7 +3939,7 @@ h2 {
 
 h3 {
 	font-size: 1.1rem !important;
-	padding: 1rem 2rem !important;
+	padding: 1rem 1rem !important;
 }
 
 code,.cbi-progressbar::after {
@@ -4020,8 +4026,8 @@ i input {
 
 
 .cbi-map >.cbi-section .cbi-section-table,.container .cbi-tabmenu,.container #tabmenu,.cbi-map >.cbi-section .table {
-	margin-left: -2%;
-    width: 105%;
+	margin-left: 0%;
+    width: 100%;
 }
 
 .admin-status-overview h2.content {
