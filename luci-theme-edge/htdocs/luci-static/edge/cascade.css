@@ -3939,6 +3939,8 @@ h2 {
 }
 
 h3 {
+	color: #000000;
+	background: #90ddaa;
 	font-size: 1.1rem !important;
 	padding: 1rem 1rem !important;
 }
