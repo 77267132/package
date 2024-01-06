@@ -63,6 +63,12 @@ a {
 	background-color: transparent;
 }
 
+a:link, a:visited, a:active {
+    color: #5e72e4;
+    color: var(--primary);
+    text-decoration: none;
+}
+
 *::-webkit-scrollbar:hover {
 	background-color: rgba(100, 100, 100, .09);
 }
