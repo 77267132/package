@@ -13,7 +13,7 @@ $Id$
 ]]--
 
 m = Map("vsftpd")
-m.description = translate("FTP Server - General Settings")
+m.title = translate("FTP Server - General Settings")
 
 sl = m:section(NamedSection, "listen", "listen", translate("Listening Settings"))
 
