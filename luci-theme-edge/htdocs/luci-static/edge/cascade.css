@@ -58,16 +58,21 @@
 }
 
 a {
-    color: #5A8DEE;
-    text-decoration: none;
     background-color: transparent;
 }
 
-a:hover{
-    text-decoration:underline}
+a:link, a:visited {
+    color: #5A8DEE;
+    color: var(--primary);
+    text-decoration: none;
+}
 
-a:link, a:visited, a:active {
-    color: #5e72e4;
+a:hover {
+    text-decoration:underline
+}
+
+a:active {
+    color: #5A8DEE;
     color: var(--primary);
     text-decoration: none;
 }
