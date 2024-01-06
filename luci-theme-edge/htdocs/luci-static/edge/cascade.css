@@ -1580,7 +1580,6 @@ ul.tabs,.tabmenu .tabs,#tabmenu .tabs,ul.cbi-tabmenu {
 	transition: box-shadow .25s, -webkit-box-shadow .25s;
 	border-radius: 2px;
 	border-bottom: 0;
-	margin-bottom: 10px;
 	background-color: #fff;
 	padding-top: 1rem;
 }
