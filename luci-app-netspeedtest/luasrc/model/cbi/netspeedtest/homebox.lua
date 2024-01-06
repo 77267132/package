@@ -3,7 +3,7 @@
 local m, s ,o
 
 
-m = Map("netspeedtest", "<font color='green'>" .. translate("Net Speedtest") .."</font>",translate( "Network speed diagnosis test (including intranet and extranet)<br/>For specific usage, see:") ..translate("<a href=\'https://github.com/sirpdboy/netspeedtest.git' target=\'_blank\'>GitHub @sirpdboy/netspeedtest</a>") )
+m = Map("netspeedtest", "<font color='green'>" .. translate("Net Speedtest") .."</font>",translate( "Network speed diagnosis test (including intranet and extranet)") )
 -- m:section(SimpleSection).template  = "netspeedtest/homebox_status"
 
 s = m:section(TypedSection, "homebox", translate('Lan homebox Web'))
