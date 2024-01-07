@@ -1612,6 +1612,10 @@ ul.tabs,.tabmenu .tabs,#tabmenu .tabs,ul.cbi-tabmenu {
 	margin: inherit !important;
 }
 
+[data-tab-active="false"] {
+        display:none;
+}
+
 .cbi-section-node-tabbed {
 	margin-top: 0;
 	padding: 0;
