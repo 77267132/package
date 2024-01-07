@@ -1577,6 +1577,7 @@ ul.tabs,.tabmenu .tabs,#tabmenu .tabs,ul.cbi-tabmenu {
 
 .cbi-tabmenu > li:hover {
 	background-color: rgba(246,178,181,0.2);
+	border-bottom-color: #ff9b84;
 }
 
 .cbi-tabmenu > li[class~="cbi-tab"] {
