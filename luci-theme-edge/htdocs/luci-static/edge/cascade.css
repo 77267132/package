@@ -1600,7 +1600,7 @@ ul.tabs,.tabmenu .tabs,#tabmenu .tabs,ul.cbi-tabmenu {
 	padding: 0rem 0rem !important;
 }
 [data-tab-title] p {
-	margin-left: 1rem;
+	margin-left: 0rem;
 	margin-bottom: 1rem;
 }
 [data-tab-active="true"] {
@@ -2918,7 +2918,6 @@ input[name="nslookup"] {
 /* fix system reboot */
 [data-page="admin-system-reboot"] p {
 	padding-left: 0rem;
-	color: #fff;
 }
 [data-page="admin-system-reboot"] .cbi-button {
 	background: #fb6340 !important;
@@ -2942,7 +2941,6 @@ input[name="nslookup"] {
 [data-page="admin-system-admin-password"] .cbi-map h2,
 [data-page="admin-system-admin"] .cbi-map .cbi-map-descr,
 [data-page="admin-system-admin-password"] .cbi-map .cbi-map-descr {
-	margin-left: 1.5rem;
 	color: #32325d;
 	color: var(--gray-dark);
 }
@@ -2971,7 +2969,7 @@ input[name="nslookup"] {
 	display: inline;
 }
 [data-page^="admin-system-admin"]:not(.node-main-login) .cbi-map:not(#cbi-dropbear) {
-	margin-top: 2rem;
+	margin-top: 0rem;
 	padding-top: 0.1rem;
 }
 
@@ -2981,7 +2979,6 @@ input[name="nslookup"] {
 }
 /* admin-system-crontab*/
 [data-page="admin-system-crontab"] #view p {
-	color: #fff;
 	margin-bottom: 1rem;
 }
 /*admin-system-flash*/
@@ -3919,7 +3916,7 @@ h2 {
 
 h3 {
 	font-size: 1.1rem !important;
-	padding: 1rem 2rem !important;
+	padding: 1rem 0rem !important;
 }
 
 code,.cbi-progressbar::after {
