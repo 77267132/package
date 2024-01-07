@@ -4143,3 +4143,15 @@ display:none;
 #cbi-passwall+.cbi-page-actions.control-group.fixed {
     bottom: 3.3rem;
 }
+
+.adhomebutton {
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    background: #5e72e4;
+    cursor: pointer;
+}
+ 
+.adhomebutton:hover {
+    background: #5eba00;
+}
