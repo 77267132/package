@@ -180,10 +180,6 @@ html {
     display: none !important
 }
 
-.cbi-value>.cbi-value-field>div:first-child+br {
-    display: none
-}
-
 .pure-img {
     max-width: 100%;
     height: auto
@@ -5124,4 +5120,25 @@ pre.command-output {
         border-bottom: var(--white) 1px solid;
         border-radius: 0
     }
+}
+
+.cbi-value>.cbi-value-field>div:first-child+br {
+    display: none
+}
+
+.cbi-value>.cbi-value-field>.cbi-value-description{
+    opacity:1;
+}
+
+.adhomebutton {
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    background: #5e72e4;
+    cursor: pointer;
+	transition: all .20s linear;
+}
+ 
+.adhomebutton:hover {
+    background: #5eba00;
 }
