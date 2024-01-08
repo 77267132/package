@@ -378,8 +378,6 @@ a {
 .h5,
 .h6,
 h1,
-h2,
-h3,
 h4,
 h5,
 h6 {
@@ -1110,7 +1108,7 @@ h1 {
 
 h2 {
 	font-size: 1.8rem;
-	padding: 1rem 0rem;
+	padding: 0.5rem 0.5rem 0.5rem 0rem;
 }
 
 h3 {
@@ -1554,14 +1552,14 @@ button:hover,
 }
 
 ul.tabs,.tabmenu .tabs,#tabmenu .tabs,ul.cbi-tabmenu {
-	padding-left: 2.5%;
+	padding-left: 1%;
 	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12);
 	transition: box-shadow .25s, -webkit-box-shadow .25s;
 	border-radius: 2px;
 	border-bottom: 0;
 	margin-bottom: 10px;
 	background-color: #fff;
-	padding-top: 1rem;
+	padding-top: 0.6rem;
 }
 
 #packages{
@@ -3910,11 +3908,11 @@ input[type="checkbox"]:checked {
 }
 
 .cbi-section > h3:first-child, .panel-title {
-	font-size: 1.1rem !important;
+	font-size: 1rem !important;
 }
 
 h2 {
-	font-size: 1.4rem !important;
+	font-size: 1.2rem !important;
 }
 
 .main .main-left .nav li .slide-menu li {
@@ -3922,8 +3920,8 @@ h2 {
 }
 
 h3 {
-	font-size: 1.1rem !important;
-	padding: 1rem 1rem !important;
+	font-size: 1rem !important;
+	padding: 0.5rem 0.5rem !important;
 }
 
 code,.cbi-progressbar::after {
@@ -4158,4 +4156,10 @@ display:none;
  
 .adhomebutton:hover {
     background: #5eba00;
+}
+
+.cbi-section>.cbi-section-descr{
+    font-size: small;
+    line-height: 2rem;
+    padding: 0 0 0.5rem 1rem;
 }
