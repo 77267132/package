@@ -1208,7 +1208,7 @@ fieldset > fieldset,
 [data-tab-title] > h3:first-child,
 [data-tab-title] > h4:first-child,
 [data-tab-title] > p:first-child {
-	padding: 0.5rem;
+	padding: 1rem;
 }
 
 table {
