@@ -450,6 +450,7 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 
 .cbi-value-field>div {
 	position: relative;
+	margin-top:0.5rem;
 }
 
 .focus-input {
@@ -1119,14 +1120,14 @@ h3 {
 }
 
 h4 {
-	font-size: 1rem;
+	font-size: 0.9rem;
 	margin: 1.2rem 0 0 0;
 	padding: 0rem 2rem 0.75rem 0rem;
 }
 
 h5 {
 	font-size: 1rem;
-	margin: 2rem 0 0 0;
+	margin: 1rem 0 0 0;
 	padding-bottom: 10px;
 }
 
@@ -1165,7 +1166,7 @@ h5 {
 	color: #404040;
 }
 
-.cbi-map-descr + fieldset {
+.cbi-map-descr{
 	margin-top: 1rem;
 }
 
@@ -1198,7 +1199,7 @@ fieldset > fieldset,
 	width: 100%;
 	margin: 0;
 	margin-bottom: 0;
-	padding: 1.25rem 2rem;
+	padding: 0.8rem 0.6rem;
 	color: #32325d;
 	color: #4a4549;
 }
@@ -1209,7 +1210,7 @@ fieldset > fieldset,
 [data-tab-title] > h3:first-child,
 [data-tab-title] > h4:first-child,
 [data-tab-title] > p:first-child {
-	padding: 1rem;
+	padding: 0 0 0.5rem 0;
 }
 
 table {
@@ -1564,8 +1565,8 @@ ul.tabs,.tabmenu .tabs,#tabmenu .tabs,ul.cbi-tabmenu {
 }
 
 #packages{
-	margin-left: -2%;
-    width: 105%;
+	margin-left: 0%;
+    width: 100%;
 }
 
 #packages td.col-10 {
@@ -1603,7 +1604,7 @@ ul.tabs,.tabmenu .tabs,#tabmenu .tabs,ul.cbi-tabmenu {
 }
 [data-tab-title] p {
 	margin-left: 0rem;
-	margin-bottom: 1rem;
+	margin-bottom: 0rem;
 }
 [data-tab-active="true"] {
 	overflow: visible;
@@ -3706,6 +3707,7 @@ input[type="checkbox"]:checked {
 /* Remove default checkbox */
 
 [type="checkbox"] + label:not(.lever) {
+	margin-top: -0.5rem;
 	position: relative;
 	padding-left: 35px;
 	cursor: pointer;
@@ -3909,7 +3911,8 @@ input[type="checkbox"]:checked {
 }
 
 .cbi-section > h3:first-child, .panel-title {
-	font-size: 0.9rem !important;
+	font-size: 1rem !important;
+	font-weight:bold;
 }
 
 h2 {
@@ -3967,6 +3970,7 @@ input,select {
 }
 
 input:not([type=button]):not([type=submit]):not([type=checkbox]),select {
+	margin-top: -0.5rem;
 	border:0 !important;
 	background-image:linear-gradient(dodgerblue,dodgerblue),linear-gradient(#a9a9a9,#a9a9a9);
     background-size:0 2px,100% 1px;
