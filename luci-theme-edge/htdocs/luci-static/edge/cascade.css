@@ -440,7 +440,6 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
 	border-radius: 0;
 	outline: none;
 	margin: 0;
-	padding: 0 0.5rem;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	-webkit-box-sizing: content-box;
@@ -1083,7 +1082,7 @@ body[class*="node-"] > .main > .main-left > .nav > .slide > .menu.active::before
 }
 
 #maincontent > .container {
-	padding:0 2%;
+	padding:0 1%;
 }
 
 .Overview.node-admin-status #maincontent > .container {
@@ -4207,4 +4206,8 @@ display:none;
 .nft-chain>.nft-chain-hook li {
 	list-style-type: none;
 	margin-bottom:0.2rem;
+}
+
+.add-item>.cbi-button{
+	margin-top:-1rem;
 }
