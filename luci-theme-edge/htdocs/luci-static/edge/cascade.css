@@ -1098,6 +1098,7 @@ ul {
 
 li {
 	list-style-type: none;
+	margin-bottom:0.2rem;
 }
 
 h1 {
@@ -1118,9 +1119,9 @@ h3 {
 }
 
 h4 {
-	font-size: 1.2rem;
+	font-size: 1rem;
 	margin: 1.2rem 0 0 0;
-	padding: 0rem 2rem 0.75rem 2rem;
+	padding: 0rem 2rem 0.75rem 0rem;
 }
 
 h5 {
@@ -3908,11 +3909,11 @@ input[type="checkbox"]:checked {
 }
 
 .cbi-section > h3:first-child, .panel-title {
-	font-size: 1rem !important;
+	font-size: 0.9rem !important;
 }
 
 h2 {
-	font-size: 1.2rem !important;
+	font-size: 1.1rem !important;
 }
 
 .main .main-left .nav li .slide-menu li {
@@ -3921,8 +3922,8 @@ h2 {
 
 h3 {
 	font-size: 1rem !important;
-	padding: 0.5rem 0.5rem !important;
-
+	padding: 0.6rem 0.6rem !important;
+	border-bottom:0.5px solid rgb(202 198 198);
 }
 
 code,.cbi-progressbar::after {
