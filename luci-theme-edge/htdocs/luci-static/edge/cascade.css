@@ -524,7 +524,7 @@ abbr {
 }
 
 hr {
-	margin: 1rem 0;
+	margin: 0.5rem 0;
 	opacity: 0.1;
 	border-color: #eee;
 }
@@ -792,7 +792,7 @@ header .fill .status * {
 .alert,
 .alert-message {
 	font-weight: bold;
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 	padding: 0.7rem 1rem;
 	background: rgba(90, 141, 238, 0.2);
 	color: #5A8DEE;
@@ -825,7 +825,7 @@ header .fill .status * {
 
 .container .alert,
 .container .alert-message {
-	margin-top: 1rem;
+	margin-top: 0.5rem;
 }
 /*
  *	Main Menu
@@ -1199,7 +1199,7 @@ fieldset > fieldset,
 	margin-bottom: 0;
 	padding: 1.25rem 2rem;
 	color: #32325d;
-	color: var(--gray-dark);
+	color: #4a4549;
 }
 
 .cbi-section > h3:first-child,
@@ -3922,6 +3922,7 @@ h2 {
 h3 {
 	font-size: 1rem !important;
 	padding: 0.5rem 0.5rem !important;
+
 }
 
 code,.cbi-progressbar::after {
