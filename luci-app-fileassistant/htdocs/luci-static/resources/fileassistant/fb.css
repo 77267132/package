@@ -1,5 +1,6 @@
 .fb-container {
-    margin-top: 1rem;
+    margin-top: 0rem;
+    padding: 0.4rem 0 0 0;
 }
 .fb-container .cbi-button {
     height: 1.8rem;
