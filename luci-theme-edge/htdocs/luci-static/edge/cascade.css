@@ -397,7 +397,8 @@ html {
 body {
 	font-family: "Google Sans", "Microsoft Yahei", "WenQuanYi Micro Hei", "sans-serif", "Helvetica Neue", "Helvetica", "Hiragino Sans GB";
 	font-size: 0.82rem;
-	color: #4d5156
+	color: #4d5156;
+	background:#f9f9ff;
 }
 
 html,
@@ -1132,6 +1133,7 @@ h5 {
 
 .container .cbi-section{
 	margin-bottom:1rem;
+	background:#fff;
 	
 }
 
@@ -1149,7 +1151,7 @@ h5 {
 .cbi-section-descr {
 	font-size: small;
 	line-height: 2rem;
-	padding: 0 0 0.5rem 0;
+	padding: 0 0 0.5rem 0rem;
 }
 
 .cbi-section-node {
@@ -3921,7 +3923,7 @@ h2 {
 
 h3 {
 	font-size: 1.1rem !important;
-	padding: 1rem 0rem !important;
+	padding: 1rem 1rem !important;
 }
 
 code,.cbi-progressbar::after {
@@ -3989,7 +3991,7 @@ select:focus, input:not([type=button]):not([type=submit]):focus {
 	border-radius: 2px;
 	transition: all .20s linear;
 	top: 0;
-	margin-left: 0.5rem;
+	margin-left: 0rem;
 	position:relative;
 }
 
@@ -4008,8 +4010,8 @@ i input {
 
 
 .cbi-map >.cbi-section .cbi-section-table,.container .cbi-tabmenu,.container #tabmenu,.cbi-map >.cbi-section .table {
-	margin-left: -2%;
-    width: 105%;
+	margin-left: 0%;
+    width: 100%;
 }
 
 .admin-status-overview h2.content {
