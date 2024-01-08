@@ -3970,13 +3970,15 @@ input,select {
 }
 
 input:not([type=button]):not([type=submit]):not([type=checkbox]),select {
-	margin-top: -0.5rem;
 	border:0 !important;
 	background-image:linear-gradient(dodgerblue,dodgerblue),linear-gradient(#a9a9a9,#a9a9a9);
     background-size:0 2px,100% 1px;
     background-position:left bottom,center calc(100% - 1px);
     background-repeat:no-repeat;
     transition: all .3s !important;
+	vertical-align:middle; 
+	margin-top:-2px; 
+	margin-bottom:1px;
 }
 
 select:focus, input:not([type=button]):not([type=submit]):focus {
