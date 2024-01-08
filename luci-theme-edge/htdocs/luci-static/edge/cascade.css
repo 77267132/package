@@ -3958,11 +3958,12 @@ code,.cbi-progressbar::after {
 }
 
 .cbi-section ~ .cbi-section> .panel-title {
-	padding-top: 0;
+	padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+	font-weight:bold;
 }
 
 #cbi-openclash .cbi-map-descr {
-	color: #404040
+	color: #404040;
 }
 
 input,select {
@@ -3991,7 +3992,7 @@ select:focus, input:not([type=button]):not([type=submit]):focus {
 	width: auto !important;
 	padding: 0.6rem 1.6rem;
 	line-height: 1rem;
-	webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+	--webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
 	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
 	border-radius: 2px;
 	transition: all .20s linear;
