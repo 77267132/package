@@ -913,7 +913,7 @@ header .fill .status * {
 	padding-top: 3px;
 	transition: all 0.3s;
 	content: "\e907";
-    color: #5e72e4;
+        color: #5e72e4;
 }
 
 .main .main-left .nav li .menu::after {
