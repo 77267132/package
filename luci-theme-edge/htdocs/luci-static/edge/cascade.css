@@ -1012,7 +1012,7 @@ header .fill .status * {
 .main .main-left .nav li .slide-menu li {
 	position: relative;
 	border-radius: 2px;
-	margin: 0.2rem 0;
+	margin: 0rem;
 	padding: 0.5rem 0rem;
 	background: none;
 }
