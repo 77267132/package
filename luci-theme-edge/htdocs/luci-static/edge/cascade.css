@@ -912,7 +912,7 @@ header .fill .status * {
 	left: 0.8rem;
 	padding-top: 3px;
 	transition: all 0.3s;
-	content: "\e915";
+	content: "\e907";
     color: #5e72e4;
 }
 
