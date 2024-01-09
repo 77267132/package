@@ -4298,8 +4298,8 @@ div[style*="display:grid;grid-template-columns:repeat"] {
 
 [data-page^="admin-system-diskman"] form > .cbi-map>.cbi-section:nth-of-type(2){
     background:none !important;
-	box-shadow:none !important;
-	display:flex;
-	justify-content:flex-end;
-	margin-bottom:0.5rem;
+    box-shadow:none !important;
+    display:flex;
+    justify-content:flex-end;
+    margin-bottom:0.5rem;
 }
