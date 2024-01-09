@@ -1133,7 +1133,8 @@ h5 {
 .container .cbi-section{
 	margin-bottom:1rem;
 	background:#fff;
-	
+	box-shadow:0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+	border-radius:2px;
 }
 
 .cbi-modal .cbi-section,
@@ -4225,4 +4226,12 @@ display:none;
 .main .main-left .nav li a[data-title=Log_out]::before,.main .main-left .nav li .food[data-title=Log_out]::before {
     content: "\e907";
     color: #adb5bd
+}
+
+div[style*="display:grid;grid-template-columns:repeat"] {
+    display: flex !important;
+    justify-content: space-evenly !important;
+    padding-bottom: 1rem;
+    flex-wrap: wrap;
+    font-family: 'argon'
 }
