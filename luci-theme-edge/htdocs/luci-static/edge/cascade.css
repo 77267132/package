@@ -871,7 +871,7 @@ header .fill .status * {
 	cursor: default;
 	transition: all 0.2s;
 	position: relative;
-	font-size: 0.93rem;
+	font-size: 0.9rem;
 }
 
 .main .main-left .nav li .menu.active {
@@ -3939,7 +3939,7 @@ code,.cbi-progressbar::after {
 }
 
 .main .main-left .nav>li>a:first-child::before {
-	font-size: 1.1rem !important;
+	font-size: 1rem !important;
 }
 
 .td.version {
@@ -4220,4 +4220,9 @@ display:none;
 
 [data-page="admin-system-opkg"] .controls>*>label {
 	margin-bottom:0.5rem;
+}
+
+.main .main-left .nav li a[data-title=Log_out]::before,.main .main-left .nav li .food[data-title=Log_out]::before {
+    content: "\e907";
+    color: #adb5bd
 }
