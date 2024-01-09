@@ -4174,17 +4174,17 @@ display:none;
 }
 
 #cbi-system-system ul.cbi-tabmenu {
-	border-radius:0px;
+    border-radius:0px;
     box-shadow: 0 1px 0 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12);
 }
 
 #cbi-diskman-_creation ul.cbi-tabmenu {
-	border-radius:0px;
+    border-radius:0px;
     box-shadow: 0 1px 0 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12);
 }
 
 #cbi-smartdns-smartdns ul.cbi-tabmenu {
-	border-radius:0px;
+    border-radius:0px;
     box-shadow: 0 1px 0 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12);
 }
 
@@ -4219,59 +4219,59 @@ div[style*="display:grid;grid-template-columns:repeat"] {
 }
 
 [data-page="admin-status-nftables"] .table {
-	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
 }
 
 [data-page="admin-status-processes"] .table {
-	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
 }
 
 
 [data-page^="admin-status-realtime"] .table {
-	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
 	}
 
 #packages.table {
-	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
 	}
 [data-page="admin-system-startup"] .table {
-	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
 	}
 [data-page^="admin-services-ddns"] ul.cbi-tabmenu {
-	border-radius:0px;
-    box-shadow: 0 1px 0 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12);
+     border-radius:0px;
+     box-shadow: 0 1px 0 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12);
 }
 
 [data-page^="admin-services-aria2"] ul.cbi-tabmenu {
-	border-radius:0px;
-    box-shadow: 0 1px 0 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12);
+     border-radius:0px;
+     box-shadow: 0 1px 0 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12);
 }
 
 #cbi-passwall2-global ul.cbi-tabmenu {
-	border-radius:0px;
-    box-shadow: 0 1px 0 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12);
+     border-radius:0px;
+     box-shadow: 0 1px 0 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12);
 }
 
 [data-page^="admin-network-dhcp"] ul.cbi-tabmenu {
-	border-radius:0px;
+    border-radius:0px;
     box-shadow: 0 1px 0 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12);
 }
 
 [data-page="admin-network-diagnostics"] .table>tr {
-	background: none;
+     background: none;
 }
 
 [data-page^="admin-network-nlbw-config"] ul.cbi-tabmenu {
-	border-radius:0px;
-    box-shadow: 0 1px 0 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12);
+     border-radius:0px;
+     box-shadow: 0 1px 0 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12);
 }
 
 [data-page^="admin-network-sqm"] ul.cbi-tabmenu {
-	border-radius:0px;
-    box-shadow: 0 1px 0 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12);
+     border-radius:0px;
+     box-shadow: 0 1px 0 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12);
 }
 
 [data-page^="admin-network-upnp"] ul.cbi-tabmenu {
-	border-radius:0px;
-    box-shadow: 0 1px 0 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12);
+     border-radius:0px;
+     box-shadow: 0 1px 0 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12);
 }
