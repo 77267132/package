@@ -1553,7 +1553,7 @@ button:hover,
 }
 
 ul.tabs,.tabmenu .tabs,#tabmenu .tabs,ul.cbi-tabmenu {
-	padding-left: 1%;
+	padding-left: 0.9%;
 	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
 	transition: box-shadow .25s, -webkit-box-shadow .25s;
 	border-radius: 2px;
@@ -3392,8 +3392,8 @@ input[type="checkbox"]:checked {
 	}
 
   .tr.placeholder > .td,
-  #cbi-firewall .tr > .td,
-  #cbi-network .tr:nth-child(2) > .td,
+ #cbi-firewall .tr > .td,
+ #cbi-network .tr:nth-child(2) > .td,
   .cbi-section #wifi_assoclist_table .tr > .td {
 		border-top: 0;
 	}
@@ -3992,7 +3992,7 @@ select:focus, input:not([type=button]):not([type=submit]):focus {
 	height: auto !important;
 	width: auto !important;
 	padding: 0.6rem 1.6rem;
-	line-height: 1.1rem;
+	line-height: 1.06rem;
 	--webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
 	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
 	border-radius: 2px;
@@ -4274,4 +4274,32 @@ div[style*="display:grid;grid-template-columns:repeat"] {
 [data-page^="admin-network-upnp"] ul.cbi-tabmenu {
     border-radius:0px;
     box-shadow: 0 1px 0 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12);
+}
+
+[data-page^="admin-services-AdGuardHome"] input[type=button] {
+	margin-top:-0.5rem;
+}
+
+[data-page^="admin-services-AdGuardHome"] input[type=submit] {
+	margin-top:-0.5rem;
+}
+
+[data-page="admin-system-admin-sshkeys"] .cbi-section-node{
+	background:#fff;
+	padding-left:0.5rem;
+	padding-top:0.2rem;
+	border-radius:2px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+[data-page="admin-status-realtime-connections"] button{
+    margin-top:0.2rem;
+}
+
+[data-page^="admin-system-diskman"] form > .cbi-map>.cbi-section:nth-of-type(2){
+    background:none !important;
+	box-shadow:none !important;
+	display:flex;
+	justify-content:flex-end;
+	margin-bottom:0.5rem;
 }
