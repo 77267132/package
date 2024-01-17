@@ -4290,7 +4290,8 @@ select:focus{
 }
 
 #_log_fieldset input[type=button] {
-	margin-left:0.5rem !important;
+	margin-top:1% !important;
+	margin-left:1% !important;
 }
 
 [data-page="admin-system-diskman-disks"] div [style="display: inline-block;"] {
