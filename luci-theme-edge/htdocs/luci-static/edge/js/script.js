@@ -200,6 +200,29 @@ setTimeout(function(){
 $("input[type='checkbox']").filter(function () {
   return (!$(this).next("label").length)
 }).show();
+/**加入waves*/
+/**
+var config = {
+    // How long Waves effect duration 
+    // when it's clicked (in milliseconds)
+    duration: 600
+};
+    Waves.attach("button,input[type='button'],input[type='reset'],input[type='submit']", ['waves-light']);
+	// Ripple on hover
+$("button,input[type='button'],input[type='reset'],input[type='submit']").mouseenter(function() {
+    Waves.ripple(this, {wait: null});
+}).mouseleave(function() {
+    Waves.calm(this);
+});
+  Waves.init(config);
+$(".waves-input-wrapper").filter(function () {
+  if($(this).children().css("display")=="none"){
+        return true;
+    }else{
+        return false;
+    }
+}).hide();
+*/
 	}, 0);
 
 var options = { attributes: true};
