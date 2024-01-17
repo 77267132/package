@@ -1,0 +1,14 @@
+{
+	"admin/nas/gowebdav": {
+		"title": "GoWebDav",
+		"order": 2,
+		"action": {
+			"type": "view",
+			"path": "gowebdav"
+		},
+		"depends": {
+			"acl": [ "luci-app-gowebdav" ],
+			"uci": { "gowebdav": true }
+		}
+	}
+}
