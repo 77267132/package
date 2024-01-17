@@ -2,7 +2,7 @@
 	Edge is a clean HTML5 theme for LuCI. It is based on luci-theme-material edge Template
 
 	luci-theme-Edge
-	Copyright 2020 Kiddin'
+	Copyright 2024 Zoulianghe
 
 	Have a bug? Please create an issue here on GitHub!
 	https://github.com/kiddin9/luci-theme-edge/issues 
@@ -21,22 +21,13 @@
 	local util = require "luci.util"
 	local http = require "luci.http"
 	local disp = require "luci.dispatcher"
-
 	local boardinfo = util.ubus("system", "board")
-
-	local node = disp.context.dispatched
-    
-    local fs	= require "nixio.fs"
+	local node = disp.context.dispatched   
+        local fs = require "nixio.fs"
 	local nutil = require "nixio.util"
-    
-    
-    
-	-- send as HTML5
+    	-- send as HTML5
 	http.prepare_content("text/html")
-    
-    math.randomseed(os.time())
-    
-
+        math.randomseed(os.time())
 -%>
 <!DOCTYPE html>
 <html lang="<%=luci.i18n.context.lang%>">
@@ -58,6 +49,7 @@
 	<link rel="icon" href="<%=media%>/logo.png" sizes="144x144">
 	<link rel="apple-touch-icon-precomposed" href="<%=media%>/logo.png" sizes="144x144">
 	<link rel="stylesheet" href="<%=media%>/css/landscape.css">
+	<link rel="stylesheet" href="<%=media%>/css/waves.css">
 	<link rel="stylesheet" href="<%=media%>/css/cascade.css">
 	<link rel="shortcut icon" href="<%=media%>/favicon.ico">
 	<% if node and node.css then %>
