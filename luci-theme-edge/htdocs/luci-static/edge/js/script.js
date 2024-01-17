@@ -195,7 +195,8 @@ document.addEventListener('luci-loaded', function(ev) {
      audiostatus = 'off';
      /*Set the status back to off*/
    });
-	setTimeout(function(){
+	
+setTimeout(function(){
 $("input[type='checkbox']").filter(function () {
   return (!$(this).next("label").length)
 }).show();
@@ -207,6 +208,7 @@ $("input[type='checkbox']").filter(function () {
   return (!$(this).next("label").length)
 }).show();
 }
+	
 var mutationObserver = new MutationObserver(callback);
  mutationObserver.observe($("body")[0], options);
  $(".cbi-value").has("textarea").css("background","none");
