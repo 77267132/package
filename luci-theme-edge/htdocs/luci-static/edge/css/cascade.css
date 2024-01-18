@@ -2162,6 +2162,7 @@ body:not(.Interfaces) .cbi-rowstyle-2:first-child {
 }
 
 .modal li {
+	list-style-position:inside;
 	list-style-type: square;
 	color: #2e2e2e;
 }
