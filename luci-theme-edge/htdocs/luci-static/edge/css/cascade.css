@@ -3856,7 +3856,6 @@ select:focus, input:not([type=button]):not([type=submit]):not([type=checkbox]):f
 	transition: all .20s linear;
 	top: 0;
 	margin-bottom:0.1rem;
-	margin-left: 0.1rem;
 	position:relative;
 }
 
@@ -4254,6 +4253,7 @@ select{
 	border:1px solid #a9a9a9 !important;
         padding-left:0.5rem;
 	padding-right: 14px !important;
+	margin-right:0.1rem;
 	background: none;
 	transition: all 0.2s ease;
 }
