@@ -2169,7 +2169,7 @@ body:not(.Interfaces) .cbi-rowstyle-2:first-child {
 
 .modal p {
 	word-break: break-word;
-	margin:0;
+	margin-bottom:0.5rem;
 }
 
 h3+p,h4+p {
