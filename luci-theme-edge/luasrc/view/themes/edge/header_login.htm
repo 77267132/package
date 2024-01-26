@@ -55,44 +55,6 @@
 	<script src="<%=resource%>/cbi.js"></script>
 	<script src="<%=resource%>/luci.js"></script>
 	<script src="<%=media%>/js/jquery.min.js"></script>
-	<script type="text/javascript">//<![CDATA[
-		(function () {
-			function get_children(node) {
-				var children = [];
-
-				for (var k in node.children) {
-					if (!node.children.hasOwnProperty(k))
-						continue;
-
-					if (!node.children[k].satisfied)
-						continue;
-
-					if (!node.children[k].hasOwnProperty('title'))
-						continue;
-
-					children.push(Object.assign(node.children[k], { name: k }));
-				}
-
-				return children.sort(function (a, b) {
-					return ((a.order || 1000) - (b.order || 1000));
-				});
-			}
-
-		document.addEventListener('luci-loaded', function (ev) {
-			var tree = <%= luci.http.write_json(luci.dispatcher.menu_json() or { }) %>,
-			node = tree,
-			url = '';
-
-		if (L.env.dispatchpath.length >= 3) {
-			for (var i = 0; i < 3 && node; i++) {
-				node = node.children[L.env.dispatchpath[i]];
-				url = url + (url ? '/' : '') + L.env.dispatchpath[i];
-			}
-
-		}
-		});
-		}) ();
-	//]]></script>
 </head>
 
 <body
