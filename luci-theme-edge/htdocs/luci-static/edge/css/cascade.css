@@ -3723,8 +3723,8 @@ input[type="checkbox"]:checked {
 
 .cbi-map style+fieldset.cbi-section:first-of-type p em {
 	margin-left: 0.5rem;
-    text-align: left;
-    display: block;
+        text-align: left;
+        display: block;
 }
 
 .cbi-section .cbi-section {
