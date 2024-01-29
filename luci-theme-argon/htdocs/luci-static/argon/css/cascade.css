@@ -5142,15 +5142,14 @@ pre.command-output {
 
 .cbi-map style+fieldset.cbi-section:first-of-type p em {
 	display: block;
+	text-align:left;
 }
 
 .cbi-map style+fieldset.cbi-section:first-of-type {
-	box-shadow: none !important;
 	display: block;
 	text-align: center;
 	overflow: hidden;
-	margin: 0.5rem 0;
-	background: none;
+	margin: 0 0 0.5rem 0;
 	padding: 0;
 	border:none;
 }
