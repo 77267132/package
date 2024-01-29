@@ -3740,7 +3740,7 @@ input[type="checkbox"]:checked {
 
 #indicators {
 	cursor: pointer;
-	position: absolute;
+	position: relative;
 	top: 1.5rem;
 	right: 1%;
 	z-index: 99;
@@ -4161,11 +4161,6 @@ table tr:last-child td:last-child {
     border-bottom-right-radius: 0.2rem; 
 } 
 
-.cbi-dynlist > .item:hover::after {
-	opacity: 0.7;
-	top: 1rem;
-}
-
 .modal.uci-dialog> .cbi-section{
 	box-shadow:none !important;
 }
@@ -4278,6 +4273,11 @@ select:focus{
 	display: flex !important;
         justify-content: flex-end;
 	padding:0.3rem !important;
+}
+
+[data-page="admin-system-system"] .item:hover::after{
+	opacity: 0.7;
+	top:1rem !important;
 }
 
 :root {
