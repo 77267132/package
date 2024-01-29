@@ -3713,41 +3713,18 @@ input[type="checkbox"]:checked {
 }
 
 .cbi-map style+fieldset.cbi-section:first-of-type {
-	box-shadow: none !important;
 	display: block;
 	text-align: center;
 	overflow: hidden;
 	margin: 0.5rem 0;
-	background: none;
 	padding: 0;
 	border:none;
 }
 
-.cbi-map style+fieldset.cbi-section:first-of-type p font {
-	position: relative;
-	display: inline-block;
-	padding: 0 1rem;
-}
-
-.cbi-map style+fieldset.cbi-section:first-of-type p font:before, .cbi-map style+fieldset.cbi-section:first-of-type p font:after {
-	border-color: #FDAC41 !important;
-	content: "";
-	position: absolute;
-	top: 50%;
-	width: 9999px;
-	border-top: 2px solid #DFE3E7;
-}
-
-.cbi-map style+fieldset.cbi-section:first-of-type p font:before {
-	right: 100%;
-}
-
-.cbi-map style+fieldset.cbi-section:first-of-type p font:after {
-	left: 100%;
-}
-
 .cbi-map style+fieldset.cbi-section:first-of-type p em {
-	display: block;
+	margin-left: 0.5rem;
+    text-align: left;
+    display: block;
 }
 
 .cbi-section .cbi-section {
