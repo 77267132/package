@@ -1211,7 +1211,6 @@ fieldset > fieldset,
 
 .cbi-section > h3:first-child,
 .cbi-section > h4:first-child,
-.cbi-section > p:first-child,
 [data-tab-title] > h3:first-child,
 [data-tab-title] > h4:first-child,
 [data-tab-title] > p:first-child {
