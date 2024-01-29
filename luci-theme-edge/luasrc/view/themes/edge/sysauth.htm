@@ -47,17 +47,17 @@ if (/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) {
 						<p><%:There is no password set on this router. Please configure a root password to protect the web interface and enable SSH.%>
 						</p>
 					</div>
-						<%- end -%>
-							<%- if fuser then %>
-		<div class="alert-message warning">
-			<p><%:Invalid username and/or password! Please try again.%></p>
-		</div>
-	<% end -%>
-						<noscript>
-						<div class="alert-message error">
-							<h4><%:JavaScript required!%></h4>
-							<p><%:You must enable JavaScript in your browser or LuCI will not work properly.%></p>
-						</div>
+					<%- end -%>
+					<%- if fuser then %>
+		                        <div class="alert-message warning">
+			                <p><%:Invalid username and/or password! Please try again.%></p>
+		                        </div>
+	                                <% end -%>
+					<noscript>
+					<div class="alert-message error">
+						<h4><%:JavaScript required!%></h4>
+						<p><%:You must enable JavaScript in your browser or LuCI will not work properly.%></p>
+					</div>
 					</noscript>
 			<div class="container">
 		
