@@ -2368,6 +2368,10 @@ textarea:focus{
 	box-shadow:none;
 }
 
+.cbi-section .cbi-section-node .cbi-value .cbi-value-field textarea {
+	margin: 0;
+}
+
 #syslog {
 	font-size: small;
 	line-height: 1.25;
