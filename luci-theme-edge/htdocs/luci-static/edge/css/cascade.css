@@ -661,7 +661,6 @@ p {
 .main-right > #maincontent {
 	position: relative;
 	z-index: 50;
-	margin-top: 2rem;
 }
 
 .pull-right {
@@ -1082,7 +1081,7 @@ body[class*="node-"] > .main > .main-left > .nav > .slide > .menu.active::before
 
 #maincontent > .container {
 	padding:0 1%;
-	margin-top:3rem;
+	margin-top:4rem;
 }
 
 .Overview.node-admin-status #maincontent > .container {
