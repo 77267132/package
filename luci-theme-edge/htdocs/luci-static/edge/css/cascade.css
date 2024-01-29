@@ -1401,8 +1401,7 @@ td > table > tbody > tr > td,
 
 button:hover,
 .btn:hover,
-.cbi-button:hover,
-.item:hover::after {
+.cbi-button:hover {
 	opacity: 0.7;
 	top: 0.1rem;
 }
@@ -4275,9 +4274,9 @@ select:focus{
 	padding:0.3rem !important;
 }
 
-[data-page="admin-system-system"] .item:hover::after{
+.item:hover::after{
 	opacity: 0.7;
-	top:1rem !important;
+	margin-bottom:-0.1rem !important;
 }
 
 :root {
