@@ -40,58 +40,51 @@ if (/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) {
 	
 <div class="main-right">
 	<div class="darkMask"></div>
-			<div id="maincontent">
-					<%- if luci.sys.process.info("uid") == 0 and luci.sys.user.getuser("root") and not luci.sys.user.getpasswd("root") then -%>
-					<div class="alert-message error">
-						<h4><%:No password set!%></h4>
-						<p><%:There is no password set on this router. Please configure a root password to protect the web interface and enable SSH.%>
-						</p>
-					</div>
-					<%- end -%>
-					<%- if fuser then %>
-		                        <div class="alert-message warning">
-			                <p><%:Invalid username and/or password! Please try again.%></p>
-		                        </div>
-	                                <% end -%>
-					<noscript>
-					<div class="alert-message error">
-						<h4><%:JavaScript required!%></h4>
-						<p><%:You must enable JavaScript in your browser or LuCI will not work properly.%></p>
-					</div>
-					</noscript>
-			<div class="container">
-		
-
-
-<form method="post" action="<%=pcdata(FULL_REQUEST_URI)%>">
-
-
-	<div class="cbi-map">
-		<h2 name="content"><img src="<%=media%>/logo.png" width="200"></h2>
-		<div class="cbi-map-descr">
-			<%:Have a nice day. ✨%>
-		</div>
-		<div class="cbi-section"><div class="cbi-section-node">
-			<div class="cbi-value">
-				<label class="cbi-value-title"><%:Username%></label>
-				<div class="cbi-value-field">
-					<input onclick="playAudio()" class="cbi-input-text" type="text" name="luci_username" />
-				</div>
-			</div>
-			<div class="cbi-value cbi-value-last">
-				<label class="cbi-value-title"><%:Password%></label>
-				<div class="cbi-value-field">
-					<input class="cbi-input-text" type="password" name="luci_password" />
-				</div>
-			</div>
-		</div></div>
-	</div>
-
-	<div class="cbi-page-actions">
-		<input type="submit" value="<%:Log in%>" class="btn cbi-button cbi-button-apply" />
-		<input type="reset" value="<%:Reset%>" class="btn cbi-button cbi-button-reset" />
-	</div>
-</form>
+	<div id="maincontent">
+	     <%- if luci.sys.process.info("uid") == 0 and luci.sys.user.getuser("root") and not luci.sys.user.getpasswd("root") then -%>
+	     <div class="alert-message error">
+             <h4><%:No password set!%></h4>
+	     <p><%:There is no password set on this router. Please configure a root password to protect the web interface and enable SSH.%></p>
+	     </div>
+	     <%- end -%>
+	     <%- if fuser then %>
+	     <div class="alert-message warning">
+	     <p><%:Invalid username and/or password! Please try again.%></p>
+	     </div>
+	     <% end -%>
+	     <noscript>
+	     <div class="alert-message error">
+	     <h4><%:JavaScript required!%></h4>
+	     <p><%:You must enable JavaScript in your browser or LuCI will not work properly.%></p>
+	     </div>
+	     </noscript>
+	     <div class="container">
+		<form method="post" action="<%=pcdata(FULL_REQUEST_URI)%>">
+                <div class="cbi-map">
+		     <h2 name="content"><img src="<%=media%>/logo.png" width="200"></h2>
+		     <div class="cbi-map-descr"><%:Have a nice day. ✨%></div>
+		     <div class="cbi-section">
+		     <div class="cbi-section-node">
+		     <div class="cbi-value">
+			  <label class="cbi-value-title"><%:Username%></label>
+			  <div class="cbi-value-field">
+			  <input onclick="playAudio()" class="cbi-input-text" type="text" name="luci_username" />
+			  </div>
+		     </div>
+		     <div class="cbi-value cbi-value-last">
+		          <label class="cbi-value-title"><%:Password%></label>
+			  <div class="cbi-value-field">
+			  <input class="cbi-input-text" type="password" name="luci_password" />
+			  </div>
+		     </div>
+		     </div>
+		     </div>
+	       </div>
+	       <div class="cbi-page-actions">
+	       <input type="submit" value="<%:Log in%>" class="btn cbi-button cbi-button-apply" />
+	       <input type="reset" value="<%:Reset%>" class="btn cbi-button cbi-button-reset" />
+	       </div>
+               </form>
 
 <script>
  if (!!window.ActiveXObject || "ActiveXObject" in window){
