@@ -5139,4 +5139,19 @@ pre.command-output {
 .cbi-value>.cbi-value-field>div:first-child+br{
     display:none;
 }
+
+.cbi-map style+fieldset.cbi-section:first-of-type p em {
+	display: block;
+}
+
+.cbi-map style+fieldset.cbi-section:first-of-type {
+	box-shadow: none !important;
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	margin: 0.5rem 0;
+	background: none;
+	padding: 0;
+	border:none;
+}
 /*# sourceMappingURL=cascade.css.map */
