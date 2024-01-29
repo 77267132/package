@@ -2923,7 +2923,7 @@ input[name="nslookup"] {
 	font-size: 1.5rem;
 	position: absolute;
 	z-index: 100;
-	left: 10px;
+	left: 2px;
 	top: 10px;
 }
 
