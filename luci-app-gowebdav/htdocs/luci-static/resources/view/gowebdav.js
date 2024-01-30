@@ -25,7 +25,7 @@ function getServiceStatus() {
 }
 
 function renderStatus(isRunning) {
-	var spanTemp = '<em><span style="color:%s;font-weight:bold;display:block;height:30px;line-height:30px;padding:0.2rem;"><strong>%s %s</strong></span></em>';
+	var spanTemp = '<em><span style="color:%s;font-weight:bold;display:block;height:30px;line-height:30px;padding-left:0.2rem;"><strong>%s %s</strong></span></em>';
 	var renderHTML;
 	if (isRunning) {
 		renderHTML = spanTemp.format('green', _('GoWebDav'), _('RUNNING'));
